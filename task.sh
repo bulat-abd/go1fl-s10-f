@@ -16,7 +16,7 @@ cp -R ./dir2/ ./dir3/dir4
 
 find . -name "*.txt" | sort > ./dir1/summary.txt
 
-# дописываем в task/dir1/summary.txt содержимое task/dir2/list.txt
+cat ./dir2/list.txt >> ./dir1/summary.txt
 
 # определяем переменную окружения NAME со значением "Всем студентам"
 
