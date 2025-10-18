@@ -4,11 +4,9 @@ mkdir -p task/dir1 task/dir2 task/dir3/dir4
 
 cd ./task
 
-# создаём пустой файл task/dir2/empty
+touch ./dir2/empty
 
-# создаём файл task/dir2/hello.sh с таким содержанием:
-# #!/bin/bash
-# echo "$1, привет!"
+echo -e "#!/bin/bash\necho \"\$1, привет!\"" > ./dir2/hello.sh
 
 # устанавливаем для task/dir2/hello.sh права rwxrw-r--
 
