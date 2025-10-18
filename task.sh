@@ -14,8 +14,7 @@ ls -1 ./dir2 > ./dir2/list.txt
 
 cp -R ./dir2/ ./dir3/dir4
 
-# записываем в task/dir1/summary.txt список файлов с расширением *.txt
-# находящихся в task, включая поддиректории
+find . -name "*.txt" | sort > ./dir1/summary.txt
 
 # дописываем в task/dir1/summary.txt содержимое task/dir2/list.txt
 
