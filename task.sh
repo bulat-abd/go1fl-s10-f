@@ -14,7 +14,7 @@ ls -1 ./dir2 > ./dir2/list.txt
 
 cp -R ./dir2/ ./dir3/dir4
 
-find . -name "*.txt" | sort > ./dir1/summary.txt
+find . -name "*.txt" > ./dir1/summary.txt
 
 cat ./dir2/list.txt >> ./dir1/summary.txt
 
