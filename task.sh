@@ -12,7 +12,7 @@ chmod 764 ./dir2/hello.sh
 
 ls -1 ./dir2 > ./dir2/list.txt
 
-# копируем содержимое каталога task/dir2 в каталог task/dir3/dir4
+cp -R ./dir2/ ./dir3/dir4
 
 # записываем в task/dir1/summary.txt список файлов с расширением *.txt
 # находящихся в task, включая поддиректории
