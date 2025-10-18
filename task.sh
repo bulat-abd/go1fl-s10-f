@@ -8,7 +8,7 @@ touch ./dir2/empty
 
 echo -e "#!/bin/bash\necho \"\$1, привет!\"" > ./dir2/hello.sh
 
-# устанавливаем для task/dir2/hello.sh права rwxrw-r--
+chmod 764 ./dir2/hello.sh
 
 # сохраняем список файлов task/dir2 в task/dir2/list.txt
 
