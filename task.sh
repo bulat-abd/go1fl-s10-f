@@ -18,7 +18,7 @@ find . -name "*.txt" > ./dir1/summary.txt
 
 cat ./dir2/list.txt >> ./dir1/summary.txt
 
-NAME="Всем студентам"
+export NAME="Всем студентам"
 
 ./dir2/hello.sh "$NAME" >> ./dir1/summary.txt
 
